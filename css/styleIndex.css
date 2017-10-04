@@ -1,0 +1,197 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	font-family: Roboto,Arial,sans-serif;
+}
+
+#presentacion
+{
+	margin: 0;
+	background-color: rgba(0,0,0,0.8);
+	background-image: url(../img/banner1.jpg);
+	background-size: 100%;
+	padding-top: 250px;
+}
+
+#presentacion h1
+{
+	margin: 0;
+	font-weight: bold;
+	font-size: 66px;
+	color: white;
+	text-align: center;
+}
+
+#title
+{	
+	padding: 5px;
+	margin-right: 25%;
+	margin-left: 25%;
+	background-color: #1ba38c;
+	width: 50%;
+	height: auto;
+}
+
+#presentacion h3
+{
+	color: black;
+	font-weight: lighter;
+	letter-spacing: 1px;
+	text-align: center;
+	margin-bottom: 230px;
+}
+
+.menu
+{
+	align-content: top;
+	padding: 0;
+	margin: 0;
+	transition-property: background;
+	transition-duration: 1s;
+	background: rgba(0,0,0, 0.6);
+	width: 100%;
+}
+
+embed
+{
+	width: 40px;
+	height: 40px;
+}
+
+.menu h4
+{
+	color:white;
+	font-weight: lighter;
+	font-size: 25px;
+}
+
+#logo{
+	float: left;
+	margin: 8px;
+}
+
+#name{
+	margin-left: 66px;
+	margin-top: 15px;
+}
+
+nav{
+	width: 100%;
+	height: 56px;
+}
+
+nav ul{
+	width: 100%;
+	height: 56px;
+	list-style: none;
+	overflow: hidden;
+}
+
+nav ul li{
+	padding-top: 15px;
+	text-align: center;
+	width: 20%;
+	height: 100%;
+	float: left;
+	background-color: ;
+}
+
+a{
+	color: white;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+li:hover{
+	transition-property: background-color;
+	transition-duration: 1s;
+	background-color: rgba(0,0,0,0.4);
+	transition-property: border-top;
+	transition-duration: 0.5s;
+	border-top: 5px solid #1ba38c;
+	color: white;
+	cursor: pointer;
+}
+
+.margin{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.contenedor{
+	width: 140px;
+	height: 140px;
+	border: 3px solid black;
+	border-radius: 50%;
+	padding: 15px;
+	margin-bottom: 25px;
+}
+
+.alingCenter{
+	text-align: center;
+}
+
+#size{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 300px;
+	height: 40px; 
+}
+
+.menu-fixed{
+	position: fixed;
+	z-index: 1000;
+	top: 0;
+	width: 100%;
+	transition-property: background;
+	transition-duration: 1s;
+	background: rgba(0,0,0, 1);
+}
+
+#information{
+	background-color: #1ba38c;
+}
+
+#imgProfile{
+	border-radius: 50%;
+	border: 3px solid white;
+	width: 100px;
+	height: 100px;
+	margin-right: 10px;
+	margin-top: 5%;
+}
+
+#containerP{
+	width: 100%;
+}
+
+#photo{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#informationPersonal{
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#information h4{
+	color: white;
+	font-weight: bold;
+	font-size: 25px;
+	margin-bottom: 0;
+}
+
+#information .col-md-6 small{
+	color: white;
+	font-style: italic;
+	font-size: 16px;
+}
+
+#information .col-md-6 p {
+	color: white;
+	font-style: italic;
+	font-size: 15px;
+}
